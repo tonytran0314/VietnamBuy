@@ -1,0 +1,38 @@
+.related-items-container {
+    width: 65%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    /* float: left; */
+    padding: 10px;
+    opacity: 1;
+}
+
+.card a {
+    color: #111;
+}
+
+.card a:hover {
+    color: #111;
+    text-decoration: none;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.my-itemImg {
+    width: auto;
+    height: 240px;
+}
+
+.related-items-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

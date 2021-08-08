@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.my-cart-container {
+    width: 65%;
+    height: auto;
+    margin: auto;
+}
+
+.img-in-shopping-cart {
+    width: 20%;
+    float: left;
+}
+
+.details-in-shopping-cart {
+    float: left;
+    margin-left: 1em;
+}
+
+.clear {
+    clear: both;
+}
+
+.card-item-container-in-shopping-cart {
+    display: inline-block;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.my-clearfix {
+    clear: both;
+}
+
+.glyphicon-edit, .glyphicon-trash {
+    font-size:15px;
+}

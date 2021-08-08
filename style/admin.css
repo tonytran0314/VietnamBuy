@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.manage-menu-of-admin-ul {
+    background-color: #333;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.manage-menu-of-admin-ul li {
+    list-style-type: none;
+}
+
+.manage-menu-of-admin-ul a {
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    display: inline-block;
+    padding: 1.5em;
+}
+
+.manage-menu-of-admin-ul a:hover {
+    background-color: #111;
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}

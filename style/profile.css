@@ -1,0 +1,208 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #394048;
+}
+
+.profile-page-container {
+    width: 65%;
+    margin: auto;
+    height: auto;
+    background-color: #f7f7f7;
+    padding: 50px;
+    margin-top: 60px;
+}
+
+.left-col-container {
+    width: 35%;
+    float: left;
+    text-align: center;
+}
+
+.btn-open-form {
+    margin-bottom: 20px;
+}
+
+.right-col-container {
+    width: 65%;
+    float: right;
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-right: 100px;
+    border-left: 1px solid grey;
+}
+
+.user-img-container {
+    width: 50%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border: 5px solid white;
+}
+
+.user-name {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.email {
+    color: #5CC1BD;
+}
+
+.user-role {
+    text-transform: capitalize;
+    font-size: 1.1em;
+    letter-spacing: 0.8px;
+    color: #5CC1BD;
+}
+
+.contract-info {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.contract-info h4,
+.links h4 {
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.contract-info li {
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+.links li {
+    color: #5CC1BD;
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+.links {
+    float: right;
+    width: 50%;
+    height: auto;
+    padding-left: 70px;
+}
+
+.about-user {
+    margin-top: 50px;
+}
+
+.about-user h4 {
+    margin-bottom: 20px;
+}
+
+.about-user p {
+    line-height: 1.6;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.upgradebtn {
+    width: auto;
+    height: auto;
+    padding: 0.5em;
+    border: none;
+    background-color: #5CC1BD;
+    color: white;
+    border-radius: 10px;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.upgradebtn:hover {
+    background-color: #458f8c;
+}
+
+.edit-name-form {
+    visibility: hidden;
+    transform: translate(-50%, -50%) scale(0);
+    width: 400px;
+    height: auto;
+    background-color: white;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    padding: 2.3em 5em;
+    border-radius: 10px;
+    z-index: 3001;
+    transition: all 0.3s ease-in-out;
+}
+
+.edit-name-form input {
+    width: 100%;
+    margin: 20px auto;
+    display: block;
+    padding: 15px 20px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.edit-name-form form button {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #333;
+    color: #f1f1f1;
+}
+
+.edit-name-form form button:hover {
+    background-color: #111;
+}
+
+.edit-name-form p {
+    font-weight: bold;
+    font-size: 1.5em;
+    /* float: left; */
+}
+
+.form-header button {
+    background-color: #333;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: none;
+    color: #f1f1f1;
+}
+
+.form-header button {
+    background-color: #333;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    padding: 2px 10px;
+    border-radius: 50%;
+    border: none;
+    color: #f1f1f1;
+    font-size: 1.5em;
+}
+
+.form-header button:hover {
+    background-color: #111;
+}
+
+.overlay-edit-name {
+    position: fixed;
+    pointer-events: none;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0, .5);
+    z-index: 3000;
+}

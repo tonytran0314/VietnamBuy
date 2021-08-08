@@ -1,0 +1,84 @@
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f1f1f1;
+    }
+    
+    .modal {
+        visibility: hidden;
+        transform: translate(-50%, -50%) scale(0);
+        width: 500px;
+        height: auto;
+        background-color: white;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        padding: 2.3em;
+        border-radius: 10px;
+        z-index: 1000;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .modal-title {
+        height: 70px;
+        visibility: hidden;
+    }
+    
+    .modal-content {
+        visibility: hidden;
+    }
+    
+    .modal-content p {
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .modal-title h1 {
+        display: inline-block;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .modal-title button {
+        cursor: pointer;
+        float: right;
+        display: flex;
+        border: none;
+        background-color: white;
+        font-size: 2.3em;
+        line-height: 35px;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .modal-title button:hover {
+        opacity: 0.6;
+    }
+    
+    .clear-float {
+        clear: both;
+    }
+    
+    .overlay {
+        position: fixed;
+        pointer-events: none;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(0, 0, 0, .5);
+    }
+    
+    .btn-open-modal {
+        padding: 1em;
+        background-color: #367058;
+        color: #f1f1f1;
+        border: none;
+        border-radius: 5px;
+        position: fixed;
+        top: 5px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    
+    .btn-open-modal:hover {
+        background-color: #40876a;
+    }
